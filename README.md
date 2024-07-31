@@ -1,5 +1,5 @@
 # Docker-Guestbook-project
-A simple guestbook application built with Flask and PostgreSQL, running in Docker containers.
+A simple guestbook application built with python (Flask) and PostgreSQL, running in Docker containers using docker compose.
 
 
 ## Table of Contents
