@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+</head>
+<body>
+    <h1>Welcome to the Guestbook!</h1>
+    <form action="/" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Entries:</h2>
+    <ul>
+        {% for entry in entries %}
+            <li><strong>{{ entry[0] }}</strong>: {{ entry[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
