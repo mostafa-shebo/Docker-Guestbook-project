@@ -19,7 +19,7 @@ A simple guestbook application built with python (Flask) and PostgreSQL, running
 - [Contributing](#contributing)
 - [License](#license)
 
-## @Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -31,14 +31,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
    git clone https://github.com/yourusername/guestbook.git
    cd guestbook
    
 3. Build and start the containers:
   docker-compose up --build
 
-##Usage
+## Usage
 Once the containers are up and running, you can access the application in your web browser at http://localhost:5000.
 
 Database Setup
@@ -61,7 +61,7 @@ To set up the PostgreSQL database and create the necessary tables, follow these 
 4.Exit the PostgreSQL shell:
 \q
 
-##Architecture
+## Architecture
 The architecture of the Guestbook application is illustrated below:
 
 
@@ -74,7 +74,7 @@ The architecture of the Guestbook application is illustrated below:
 
 
 
-##Troubleshooting
+## Troubleshooting
 If you encounter any issues, you can check the logs of your containers with the following command:
 
     docker-compose logs
@@ -82,10 +82,10 @@ If you encounter any issues, you can check the logs of your containers with the 
     Internal Server Error:
     Ensure that the PostgreSQL database is set up correctly and that the entries table exists. Check the database logs for authentication errors.
       
-##Contributing
+## Contributing
 Please read CONTRIBUTING.md for details on the code of conduct, and the process for submitting pull requests.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 This structure and the inclusion of the architecture diagram will help users understand the components and interactions within your project. If you need further assistance with the diagram or any other part of the README, feel free to ask!
