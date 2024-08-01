@@ -2,6 +2,11 @@
 A simple guestbook application built with python (Flask) and PostgreSQL, running in Docker containers using docker compose.
 
 
+
+![Docker-Guestbook-project](https://github.com/user-attachments/assets/f4ce2898-7543-4b37-b6e0-0cc29dbf0108)
+
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
