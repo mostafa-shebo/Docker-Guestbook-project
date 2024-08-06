@@ -32,9 +32,12 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/guestbook.git
+   git clone https://github.com/mostafa-shebo/Docker-Guestbook-project.git
+
+
    cd guestbook
-   
+
+
 3. Build and start the containers:
   docker-compose up --build
 
