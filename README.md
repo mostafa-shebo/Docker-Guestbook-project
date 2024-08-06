@@ -44,7 +44,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Usage
 Once the containers are up and running, you can access the application in your web browser at http://localhost:5000.
 
-Database Setup
+## Database Setup
 To set up the PostgreSQL database and create the necessary tables, follow these steps:
 
 1.Access the PostgreSQL container:
