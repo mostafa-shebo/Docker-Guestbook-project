@@ -34,7 +34,12 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
    git clone https://github.com/mostafa-shebo/Docker-Guestbook-project.git
 
-
+         Optional ((
+            You can pull the images through docker HUB by the below command
+               1/ docker pull mostafaabdelaziz/guestbook-web:v1
+               2/ docker pull mostafaabdelaziz/postgres:v1
+         ))
+   
    cd guestbook
 
 
